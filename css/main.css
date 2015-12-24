@@ -3,7 +3,7 @@ body {
   color: white;
   padding: 20px;
   text-align: center;
-  font-size: 2em;
+  //font-size: 1em;
 }
 
 a {
@@ -11,7 +11,43 @@ a {
 }
 
 #port {
-color: white;
-text-align: center;
-  font-size: 2em;
+  color: white;
+  text-align: center;
+  //font-size: 2em;
 }
+
+div {
+ // border-color: red;
+  //border-width: 1px;
+  //border-style: solid;
+}
+
+.thumbnail {
+  background-color: rgb(0, 0, 0);
+  border-style: solid;
+  border-color: green;
+  margin-top: 50px;
+}
+
+.caption {
+   background-color: green;
+}
+
+.btn-danger {
+  background-color: black;
+  text-decoration: none;
+  border-style: none;
+}
+
+.btn-danger:hover {
+  background-color: green;
+  border-color: black;
+  border-width: 1px;
+}
+
+.btn-danger:active {
+  background-color: yellow;
+  text-decoration: : none;
+}
+
+
