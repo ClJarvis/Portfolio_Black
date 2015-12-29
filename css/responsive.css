@@ -3,7 +3,9 @@
   /********************************
 GENERAL
 *********************************/
-
+body {
+   font-size: 2.5em;
+}
   /********************************
  I was told there be no  math!
   space  3 * 5 = 15
@@ -11,7 +13,17 @@ GENERAL
   85/3 =28.33333
 *********************************/
 
+/*  h1 {
+    font-size: 1.75em;
+  }
 
+   h3 {
+    font-size: 0.725em;
+  }*/
+
+  .btn {
+    font-size: 1.75em;
+  }
 
 @media screen and (min-width: 660px) {
 
@@ -34,14 +46,6 @@ HEADER
     width: 45%;
   }
 
-  h1 {
-    font-size: 2.5em;
-  }
-
-   h2 {
-    font-size: 0.825em;
-    margin-bottom: 20px;
-  }
 
 
 }
