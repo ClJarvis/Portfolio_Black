@@ -27,7 +27,7 @@ h3 {
   //background-color: rgba( 255, 255, 255, .45);
   height: 100%;
   width: 100%;
-  background-image: url('images/cannon_and_chess.jpg');
+  //background-image: url('images/cannon_and_chess.jpg');
   background-repeat: no-repeat;
   background-size: contain;
   -webkit-background-size: contain;
@@ -95,4 +95,11 @@ ul {
   list-style: none;
   text-align: left;
   color: rgba(247, 203, 0, 0.86);
+}
+
+.skillsIcons {
+  height: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+
 }
