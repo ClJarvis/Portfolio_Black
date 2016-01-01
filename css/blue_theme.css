@@ -1,0 +1,107 @@
+html,body, #banner { height: 100%; width: 100% ; }
+
+body {
+  background-color: white;
+  color: #8C9EFF;
+  padding: 20px;
+  text-align: center;
+  font-size: 1.75em;
+}
+
+a {
+  color: #5C6BC0;
+}
+
+a:active, a:hover {
+  color: #8C9EFF;
+}
+
+h1 {
+  color: #5C6BC0;
+}
+
+h3 {
+  color: #8C9EFF;
+}
+
+#port {
+  color: #E8EAF6;
+  text-align: center;
+  //font-size: 2em;
+}
+
+#banner {
+  //background-color: rgba( 255, 255, 255, .45);
+  height: 100%;
+  width: 100%;
+  //background-image: url('images/cannon_and_chess.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  margin-top: 10px;
+
+}
+
+#profile {
+  max-height: 15%;
+  max-width: 25%
+}
+
+
+.thumbnail {
+  background-color: #8C9EFF;
+  border-style: solid;
+  border-color: #5C6BC0;
+  margin-top: 50px;
+}
+
+.caption {
+  background-color: #5C6BC0;
+  color: #1A237E;
+  font-weight: bolder;
+}
+
+
+.btn-flat {
+  background-color: #8C9EFF;
+  text-decoration: none;
+  border-style: none;
+  color: #1A237E;
+
+
+}
+
+.btn-flat:hover {
+  background-color: #5C6BC0;
+  border-color: #8C9EFF;
+  text-decoration: : none;
+}
+
+.btn-flat:active {
+  background-color: #5C6BC0;
+  text-decoration: : none;
+}
+
+/* Skills*/
+ul {
+  list-style: none;
+  text-align: left;
+  color: #5C6BC0;
+}
+
+#icon_box {
+  /*border-style: solid;
+  border-color: #5C6BC0;
+  border-width: 1px;
+  */
+  margin-bottom: 20px;
+}
+
+.skillsIcons {
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
