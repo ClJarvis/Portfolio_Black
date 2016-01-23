@@ -91,6 +91,8 @@ h3 {
   background-color: #5C6BC0;
   color: #1A237E;
   font-weight: bolder;
+  text-indent: 1em;
+
 }
 
 
@@ -99,8 +101,7 @@ h3 {
   text-decoration: none;
   border-style: none;
   color: #1A237E;
-
-
+  text-indent: 0;
 }
 
 .btn-flat:hover {
