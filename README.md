@@ -8,7 +8,7 @@ A portfolio page for showing the projects I have built while a Student at Nashvi
 <li> my social network links</li>
       <ol>
           <li>LinkedIn</li>
-          </li>Twitter</li>
+          <li>Twitter</li>
       </ol>
 <li> a list of skills learned at NSS</li>
 </ol>
