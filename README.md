@@ -1,6 +1,6 @@
 # Portfolio
 
-A portfolio page for showing the projects I have built while a Student at Nashville Software School. Some projects are class directed others are independent projects. These projects were built using HTML, CSS, JavaScript, AngularJS and JSON.
+A portfolio page for showing the projects I have built. Some are from my time at Nashville Software School. Others are projects I have built ouside of School. These projects were built using HTML, CSS, JavaScript, AngularJS and JSON.
 
 - The page also conatians:
 <ol>
