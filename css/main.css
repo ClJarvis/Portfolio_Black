@@ -61,6 +61,9 @@ h3 {
   font-weight: bolder;
 }
 
+.btn-flat{
+  text-align: center;
+}
 
 .btn-danger {
   background-color: black;
