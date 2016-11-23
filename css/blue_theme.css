@@ -2,7 +2,7 @@ html,body, #banner { height: 100%; width: 100% ; }
 
 body {
   background-color: white;
-  color: rgba(255, 255, 255, .9);
+  color: black; /*#8C9EFF;*/
   padding: 20px;
   text-align: center;
   font-size: 1.75em;
@@ -98,7 +98,7 @@ h3 {
 
 }
 
-.caption, p{
+.caption p{
   color: rgba(255, 255, 255, .9); /* #000103 020957 */
 }
 
