@@ -2,7 +2,7 @@ html,body, #banner { height: 100%; width: 100% ; }
 
 body {
   background-color: white;
-  color: black; /*#8C9EFF;*/
+  color: rgba(255, 255, 255, .9);
   padding: 20px;
   text-align: center;
   font-size: 1.75em;
@@ -88,14 +88,18 @@ h3 {
 }
 
 
-.caption {
+.caption{
   background-color: #5C6BC0;
-  color: #000103;  /*#020957 */
+  color: rgba(255, 255, 255, .9); /* #000103 020957 */
   font-weight: bolder;
   text-indent: 1em;
   font-size: 18px;
-  /*text-align: left; */
+  text-align: left;
 
+}
+
+.caption, p{
+  color: rgba(255, 255, 255, .9); /* #000103 020957 */
 }
 
 
