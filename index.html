@@ -31,7 +31,17 @@
        <ul class="nav navbar-nav navbar-right">
             <li><a href="#about"> About Me <span class="sr-only">(current)</span></a></li>
             <li><a href="#skills">Skills</a></li>
-            <li><a href="#project">Projects</a></li>
+             <li class="dropdown"><a href="#"class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projects <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li>Developer</li>
+                <li><hr></li>
+                <li><a href="#fun">Fun in The Blanks: APP</a></li>
+                <li><a href="#CAHNA">CAHNA: web site</a></li>
+                <li><a href="#ATOF">ATOF: Web Site</a></li>
+                <li><a href="#BDProject">Project Tracker: APP</a></li>
+                <li>UX Case Study</li>
+              </ul>
+            </li>
         </ul>
       </div>
     </nav>
@@ -163,10 +173,11 @@
         <!-- git hub chart API call by https://github.com/2016rshah/githubchart-api -->
         <img src="http://ghchart.rshah.org/8C9EFF/ClJarvis" alt="git chart by rshah C Jarvis's Github chart" />
       <div class="thumbnail">
+        <a name="fun"></a>
         <h3>My Front End App</h3>
         <img src="images/fun_onScreen.jpg" alt="app screen shot" width="80%"  class="img-responsive">
         <h3>Fun In The Blanks</h3>
-        <a name="project"></a>
+
         <div class="caption">
           <p>A personalized children's story book made with AngularJS, HTML, CSS, JSON, and Firebase. A children's mad libs style story where the child can take part in classic fairy tales. Goal is to teach a child to spell their name and some basic words.</p>
           <P>
@@ -184,10 +195,11 @@
     <div class='col-md-2'></div>
     <div class="col-md-8">
       <div class="thumbnail">
+        <a name="CAHNA"></a>
         <h3>Caldwell Abbay Hall</h3>
         <img src="images/CAHNA_onScreen.jpg" alt="app screen shot" width="80%"  class="img-responsive">
         <h3>CAHNA website</h3>
-        <a name="Cahna"></a>
+
         <div class="caption">
           <p>A communication center and information store house for the The Caldwell Abbay Hall Neighborhood. The site provides users with contact information for the neighborhood association, neighborhood watch, and elected officials. This site contains information residents need to know about the neighborhood; school district, brush pick up days, polling locations.
 </p>
@@ -204,10 +216,10 @@
     <div class='col-md-2'></div>
     <div class="col-md-8">
       <div class="thumbnail">
+        <a name="ATOF"></a>
         <h3>A Temptation of Faeries</h3>
         <img src="images/atof_onScreen.jpg" alt="app screen shot" width="80%"  class="img-responsive">
-        <h3>A Temptation Of Faeries website</h3>
-        <a name="Cahna"></a>
+        <h3>A Temptation Of Faeries website</h        <a name="ATOF"></a>
         <div class="caption">
           <p>A communication center and information store house for the The Caldwell Abbay Hall Neighborhood. The site provides users with contact information for the neighborhood association, neighborhood watch, and elected officials. This site contains information residents need to know about the neighborhood; school district, brush pick up days, polling locations.
 </p>
@@ -223,10 +235,13 @@
     <div class="row">
     <div class='col-md-2'></div>
     <div class="col-md-8">
+      <a name="BDProject"></a>
       <div class="thumbnail">
+
         <h3>My Full Stack App</h3>
         <img src="images/project_tracker_onScreen.jpg" alt="app screen shot" width="90%"  class="img-responsive">
         <h3>Big Damn Project Tracker</h3>
+
         <div class="caption">
 
           <p>With My Big Damn Project Tracker users can track fabrics, trim, and notions used to build their costumes. Users can track personal projects or track a contracted build for a client.</p>
@@ -289,5 +304,14 @@
 
 
 </div><!--container fluid-->
+<!-- Bower components -->
+<script src='bower_components/jquery/dist/jquery.js'></script>
+<script src='bower_components/jquery/dist/jquery.min.js'></script>
+
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
 </body>
 </html>
