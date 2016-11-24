@@ -33,6 +33,30 @@ a:active, a:hover {
   font-size: .95em;
 }
 
+/*///  footer ///*/
+.navbar-default .navbar-static-bottom, .navbar-static-bottom ul li a {
+  background-color: white;
+  color: white;
+  width: 100%;
+  font-size: .75em;
+
+}
+
+ .navbar-static-bottom ul li a:active, a:hover {
+  font-size: .80em;
+  border-color: #5C6BC0;
+  border-width: 2px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #5C6BC0;
+}
+
+.navbar-default .Contact {
+  font-size: .90em;
+  color: #5C6BC0;
+}
+
 h1 {
   color: #5C6BC0;
 }
