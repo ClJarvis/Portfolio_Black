@@ -33,6 +33,17 @@ a:active, a:hover {
   font-size: .95em;
 }
 
+.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
+    color: #5C6BC0;
+    background-color: #FFF;
+}
+
+nav ul li {
+    float: auto;
+    margin-left: 10px;
+    font-size: .95em;
+}
+
 /*///  footer ///*/
 .navbar-default .navbar-static-bottom, .navbar-static-bottom ul li a {
   background-color: white;
