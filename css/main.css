@@ -33,7 +33,6 @@ h3 {
   -webkit-background-size: contain;
   -moz-background-size: contain;
   -o-background-size: contain;
-
 }
 
 #profile {
@@ -41,10 +40,7 @@ h3 {
   border-radius-bottom: 50%;
   max-height: 15%;
   max-width: 25%
-
 }
-
-
 
 
 .thumbnail {
@@ -65,22 +61,6 @@ h3 {
   text-align: center;
 }
 
-.btn-danger {
-  background-color: black;
-  text-decoration: none;
-  border-style: none;
-}
-
-.btn-danger:hover {
-  background-color: green;
-  border-color: black;
-  border-width: 1px;
-}
-
-.btn-danger:active {
-  background-color: green;
-  text-decoration: : none;
-}
 
 ul {
   list-style: none;

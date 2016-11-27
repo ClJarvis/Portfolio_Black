@@ -2,7 +2,7 @@ html,body, #banner { height: 100%; width: 100% ; }
 
 body {
   background-color: white;
-  color: black; /*#8C9EFF;*/
+  color: #8C9EFF;
   padding: 20px;
   text-align: center;
   font-size: 1.75em;
@@ -124,7 +124,7 @@ h3 {
 
 
 .caption{
-  background-color: #5C6BC0;
+  background-color: #171a2b;
   color: rgba(255, 255, 255, .9); /* #000103 020957 */
   font-weight: bolder;
   text-indent: 1em;
@@ -138,7 +138,7 @@ h3 {
 }
 
 
-.btn-flat {
+.btn-flat, button {
   background-color: #8C9EFF;
   text-decoration: none;
   border-style: none;
@@ -148,7 +148,7 @@ h3 {
 }
 
 .btn-flat:hover {
-  background-color: #5C6BC0;
+  background-color: #171a2b;
   border-color: #8C9EFF;
   text-decoration: : none;
 }
