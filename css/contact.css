@@ -23,6 +23,7 @@
 
 .ContactBox > div {
   width: 500px;
+  max-width: 100%;
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
@@ -49,10 +50,13 @@
   border-style: solid;
   border-color: #5C6BC0;
   color: white;
+  float: right;
 
   box-shadow: 1px 1px 3px #5C6BC0;
 }
 
-.close:hover { background: #5C6BC0; }
+.close:hover, .close:focus, .btn-close { background: #fff; }
 
 
+
+ /* background: #171a2b; */

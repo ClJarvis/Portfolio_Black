@@ -139,7 +139,7 @@ h3 {
 
 
 .btn-flat, button {
-  background-color: #8C9EFF;
+  background-color: #5C6BC0;
   text-decoration: none;
   border-style: none;
   color: #1A237E;
@@ -149,13 +149,15 @@ h3 {
 
 .btn-flat:hover {
   background-color: #171a2b;
-  border-color: #8C9EFF;
+  border-color: #5C6BC0;
   text-decoration: : none;
+  color: #5C6BC0;
 }
 
 .btn-flat:active {
-  background-color: #5C6BC0;
-  text-decoration: : none;
+  background-color: #171a2b;
+  text-decoration: none;
+  color: #5C6BC0;
 }
 
 /*///////// Skills //////////////*/
