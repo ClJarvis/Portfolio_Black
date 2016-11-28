@@ -19,24 +19,24 @@ a:active, a:hover {
 
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
   background-color: white;
-  color: #8C9EFF;
+  color: #5C6BC0;
   width: 100%;
   font-size: .75em;
 }
 
 .navbar-default, .navbar-fixed-top ul li a:active, a:hover {
   font-size: .95em;
-  border-color: #8C9EFF;
+  border-color: #5C6BC0;
 }
 
 .navbar-brand{
   font-size: .95em;
 }
 
-.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
+/*.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
     color: #5C6BC0;
     background-color: #FFF;
-}
+} */
 
 nav ul li {
     float: auto;
@@ -46,8 +46,8 @@ nav ul li {
 
 /*///  footer ///*/
 .navbar-default .navbar-static-bottom, .navbar-static-bottom ul li a {
-  background-color: white;
-  color: white;
+  /*background-color: white;
+  color: white; */
   width: 100%;
   font-size: .75em;
 
@@ -60,7 +60,7 @@ nav ul li {
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: #5C6BC0;
+  color: #5C6BC0;
 }
 
 .navbar-default .Contact {
