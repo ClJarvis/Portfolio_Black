@@ -64,5 +64,26 @@
   border-width: 3px;
 }
 
-
+.inputwrapper input:focus{
+    border-bottom: 1px solid #5C6BC0 !important;
+    box-shadow: 0 1px 0 0 #8C9EFF;
  /* background: #171a2b; */
+}
+
+.inputwrapper textarea:focus {
+  border: 2px solid #5C6BC0 !important;
+}
+
+.inputwrapper .btn-flat {
+    background-color: #5C6BC0;
+    text-decoration: none;
+    border-style: none;
+    color: #1A237E;
+    text-indent: 0;
+}
+
+.inputwrapper label{
+  font-weight: bold;
+  color: #5C6BC0;
+
+}
