@@ -21,7 +21,7 @@ a:active, a:hover {
   background-color: white;
   color: #5C6BC0;
   width: 100%;
-  font-size: .75em;
+  font-size: .95em;
 }
 
 .navbar-default, .navbar-fixed-top ul li a:active, a:hover {
@@ -59,7 +59,7 @@ nav ul li {
   border-width: 2px;
 }
 
-.navbar-default .navbar-nav>li>a {
+.navbar-default .navbar-nav li a {
   color: #5C6BC0;
 }
 
@@ -67,6 +67,15 @@ nav ul li {
   font-size: .90em;
   color: #5C6BC0;
 }
+
+.dropdown-menu li {
+  font-size: 1.25em !important;
+  }
+
+.dropdown-menu li a:hover {
+  text-decoration: none;
+  background-color: #8C9EFF;
+  }
 
 h1 {
   color: #5C6BC0;
