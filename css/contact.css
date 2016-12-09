@@ -27,7 +27,7 @@
   position: relative;
   margin: 10% auto;
   padding: 5px 20px 13px 20px;
-  background: #171a2b; /* rgba(140,158,255, .5); */
+  background: #171a2b !important; /* rgba(140,158,255, .5); */
   border-style: solid;
   border-color: #5C6BC0;
   border-width: 3px;
@@ -45,14 +45,14 @@
   left: 1px;
   text-align: right;
   top: -5px;
-  width: 10px;
+  /*width: 10px; */
   text-decoration: none;
   font-weight: bold;
   border-style: solid;
-  border-color: #8C9EFF;
+  border-color: #8C9EFF !important;
   border-width: 3px;
   color: #171a2b;
-  float: right;
+  float: right!important;
 
 }
 
