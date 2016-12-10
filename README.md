@@ -12,6 +12,7 @@ A portfolio page for showing the projects I have built. Some are from my time at
           <li>GitHub</li>
       </ol>
 <li> a list of skills learned at NSS</li>
+<li> a casestudy of a UX project built at NSS</li>
 </ol>
 
 The portfolio page is HTML5, CSS, and bootstrap.
