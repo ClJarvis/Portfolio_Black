@@ -65,6 +65,7 @@ h2, h3{
 
 .Interview{
   height: 300px;
+  padding-bottom: 10px;
 }
 
 #Interview_img{
@@ -75,6 +76,7 @@ h2, h3{
   border: #7EC0DE;
   border-style: solid;
   border-width: 4px;
+  margin-top: 20px;
 }
 
 .ShoutOutBoxScript img {
@@ -108,6 +110,16 @@ h2, h3{
   margin: 100px;
   margin-top: -175px; /*////make this number half of prototype image height */
   background-color: white;
+}
+
+.PrototypeAlert {
+  border: #7EC0DE;
+  border-style: solid;
+  border-width: 4px;
+  max-height:300px;
+  max-width:460px;
+  padding: 0;
+  margin-bottom: 20px;
 }
 
 .R_arrow {
