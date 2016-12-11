@@ -51,6 +51,14 @@ h2, h3{
   max-width: 700px;
 }
 
+.PersonaImage {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-height: 400px;
+  max-width: 350px;
+}
+
 .Problem_Statement, .Persona {
   border-style: solid;
   border-width: 2px;
