@@ -211,11 +211,29 @@ ul {
   background: linear-gradient(to var(--direction,left), #8C9EFF, transparent);
 }
 
-
 .about h3:after {
   --direction: right;
   /*
  background: linear-gradient(to right, var(--yellow), transparent); */
 }
+
+.newcontact {
+  font-size: .5em;
+}
+
+.newcontact > div li:nth-child(1){
+  background: #8C9EFF;
+}
+
+.newcontact > li:nth-child(2){
+  background:  red;
+}
+
+.newcontact > li:nth-child(3){
+  background: green;
+}
+
+
+
 
 
