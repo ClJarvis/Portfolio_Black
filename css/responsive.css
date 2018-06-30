@@ -3,9 +3,7 @@
   /********************************
 GENERAL
 *********************************/
-body {
-   font-size: 2.5em;
-}
+
 
 /*  h1 {
     font-size: 1.75em;
@@ -18,6 +16,8 @@ body {
   .btn {
     font-size: 1.75em;
   }
+
+}
 
 @media screen and (min-width: 660px) {
 
