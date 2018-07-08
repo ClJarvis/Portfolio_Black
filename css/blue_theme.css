@@ -2,7 +2,7 @@ html,body, #banner { height: 100%; width: 100% ; }
 
 body {
   font-family: sans-serif;
-  background-color: white;
+  background-color: white; /* whitesmoke or rgbs litegray) */
   color: #8C9EFF;
   padding: 20px;
   text-align: center;
