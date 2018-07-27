@@ -19,8 +19,8 @@ a:active, a:hover {
 }
 
 .navbar-default, .navbar-fixed-top, .navbar-fixed-top ul li a {
-  background-color: white;
-  color: #5C6BC0;
+  background-color: #171b2c;
+  color: white;
   width: 100%;
   font-size: .95em;
 }
@@ -30,9 +30,12 @@ a:active, a:hover {
   border-color: #5C6BC0;
 }
 
-.navbar-brand{
+.navbar-default .navbar-brand{
   font-size: .95em;
+  color: #fff;
 }
+
+
 
 /*.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
     color: #5C6BC0;
@@ -235,5 +238,10 @@ ul {
 
 
 
+ .art  {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #5C6BC0;
+}
 
 
