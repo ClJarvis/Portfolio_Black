@@ -68,18 +68,24 @@ nav ul li {
   color: #5C6BC0;
 }
 
+.navbar-default .navbar-nav li a:active, .navbar-nav li a:hover {
+  color: #fff !important;
+}
+
 .navbar-default .Contact {
   font-size: .90em;
   color: #5C6BC0;
 }
 
-.dropdown-menu li {
+ .dropdown-menu li, .dropdown-menu li a {
   font-size: 1.25em !important;
+  background-color: #fff !important;
   }
+
 
 .dropdown-menu li a:hover {
   text-decoration: none;
-  background-color: #8C9EFF;
+  background-color: #171b2c !important;
   }
 
 h1 {
@@ -154,7 +160,7 @@ h3 {
 
 .btn-flat, button {
   color: #5C6BC0;
-  text-decoration: underline, overline;
+  text-decoration: underline overline;
   border-style: none;
   text-indent: 0;
   text-transform: none;
@@ -166,14 +172,14 @@ h3 {
 .btn-flat:hover {
 
   border-color: #5C6BC0;
-  text-decoration: : underline, overline;
+  text-decoration: underline overline;
   color: #5C6BC0;
   font-size: 1.65em;
 }
 
 .btn-flat:active {
 
-  text-decoration:underline, overline;
+  text-decoration: underline overline;
   color: #5C6BC0;
   font-size: 1.65em;
 }
