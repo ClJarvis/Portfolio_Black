@@ -153,27 +153,29 @@ h3 {
 
 
 .btn-flat, button {
-  background-color: #5C6BC0;
-  text-decoration: none;
+  color: #5C6BC0;
+  text-decoration: underline, overline;
   border-style: none;
-  color: #1A237E;
   text-indent: 0;
   text-transform: none;
+  font-size: 1.5em;
 /* TEST BOX SHADOW TO removed movement of text box-shadow: 10px 5px 5px red; */
 
 }
 
 .btn-flat:hover {
-  background-color: #171a2b;
+
   border-color: #5C6BC0;
-  text-decoration: : none;
+  text-decoration: : underline, overline;
   color: #5C6BC0;
+  font-size: 1.65em;
 }
 
 .btn-flat:active {
-  background-color: #171a2b;
-  text-decoration: none;
+
+  text-decoration:underline, overline;
   color: #5C6BC0;
+  font-size: 1.65em;
 }
 
 /*///////// Skills //////////////*/
@@ -243,5 +245,3 @@ ul {
   border-width: 3px;
   border-color: #5C6BC0;
 }
-
-
