@@ -83,7 +83,7 @@ nav ul li {
   }
 
 
-.dropdown-menu li a:hover {
+.dropdown-menu li a:hover, .dropdown-toggle {
   text-decoration: none;
   background-color: #171b2c !important;
   }
