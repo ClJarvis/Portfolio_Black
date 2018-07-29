@@ -136,6 +136,8 @@ h3 {
   border-color: #5C6BC0;
   margin-top: 20px;
   color: #000103;
+  height: 550px;
+  overflow: scroll;
 }
 
 .thumbnail h3{
@@ -144,17 +146,19 @@ h3 {
 
 
 .caption{
-  background-color: #171a2b;
-  color: rgba(255, 255, 255, .9); /* #000103 020957 */
+  color: #171a2b;
+  background-color: rgba(255, 255, 255, .9); /* #000103 020957 */
   font-weight: bolder;
   text-indent: 1em;
   font-size: 18px;
   text-align: left;
 
+
 }
 
 .caption p{
-  color: rgba(255, 255, 255, .9); /* #000103 020957 */
+  background-color: rgba(255, 255, 255, .9); /* #000103 020957 */
+  color: #171a2b;
 }
 
 
@@ -251,3 +255,5 @@ ul {
   border-width: 3px;
   border-color: #5C6BC0;
 }
+
+
