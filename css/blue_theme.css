@@ -1,7 +1,7 @@
 html,body, #banner { height: 100%; width: 100% ; }
 
 body {
-  font-family: sans-serif;
+  /*font-family: sans-serif; */
   background-color: white; /* whitesmoke or rgbs litegray) */
   color: #8C9EFF;
   padding: 20px;
@@ -160,7 +160,7 @@ h3 {
 
 .btn-flat, button {
   color: #5C6BC0;
-  text-decoration: underline overline;
+  text-decoration: underline;
   border-style: none;
   text-indent: 0;
   text-transform: none;
@@ -172,14 +172,14 @@ h3 {
 .btn-flat:hover {
 
   border-color: #5C6BC0;
-  text-decoration: underline overline;
+  text-decoration: underline;
   color: #5C6BC0;
   font-size: 1.65em;
 }
 
 .btn-flat:active {
 
-  text-decoration: underline overline;
+  text-decoration: underline;
   color: #5C6BC0;
   font-size: 1.65em;
 }
