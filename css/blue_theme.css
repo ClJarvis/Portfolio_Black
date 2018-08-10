@@ -256,4 +256,53 @@ ul {
   border-color: #5C6BC0;
 }
 
+.atof {
+  background: #0097a7;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #1c9085;
+}
 
+.atof p {
+  background: #0097a7;
+}
+
+.atof h4, .atof .btn, .atof a {
+  color: #fff;
+}
+
+.acaption{
+  color: #171a2b;
+  background-color: rgba(0, 151, 167, .9); /* #000103 020957 */
+  font-weight: bolder;
+  text-indent: 1em;
+  font-size: 15px;
+  text-align: left;
+}
+
+.CA {
+  background: #400000;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ccc49f;
+}
+
+
+.CA p {
+  background: #ccc49f;
+}
+
+.CA h4, .CA .btn, .CA a  {
+  color: #fff;
+}
+
+.CAcaption{
+  color: #400000;
+  background-color: rgba(204, 196, 159, .9); /* #000103 020957 */
+  font-weight: bolder;
+  text-indent: 1em;
+  font-size: 15px;
+  text-align: left;
+
+
+}
