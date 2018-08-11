@@ -144,6 +144,9 @@ h3, h4 {
   color: #8C9EFF;
 }
 
+.thumbnail h4{
+  text-align: center;
+}
 
 .caption{
   color: #171a2b;
@@ -280,6 +283,8 @@ ul {
   text-align: left;
 }
 
+/* CAHNA */
+
 .CA {
   background: #400000;
   border-style: solid;
@@ -303,6 +308,31 @@ ul {
   text-indent: 1em;
   font-size: 15px;
   text-align: left;
-
-
 }
+
+
+/* UX CASESTUDY */
+.casestudy {
+  border-style: solid;
+  border-width: 3px;
+  border-color: #7EC0DE;
+}
+
+
+.casestudy  p {
+  background: rgba(10, 10, 42, 1);
+}
+
+.casestudy h4, .casestudy .btn, .casestudy a {
+  color: #7EC0DE;
+}
+
+.casestudy {
+  color: #7EC0DE;
+  background: rgba(10, 10, 42, 1);
+  text-indent: 1em;
+  font-size: 15px;
+  text-align: left;
+}
+
+
