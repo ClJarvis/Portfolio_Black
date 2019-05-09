@@ -136,7 +136,7 @@ h3, h4 {
   border-color: #5C6BC0;
   margin-top: 20px;
   color: #000103;
-  height: 550px;
+  height: 500px;
   overflow: scroll;
 }
 
@@ -148,6 +148,11 @@ h3, h4 {
   text-align: center;
 }
 
+.thumbnail img {
+  border-radius: 50%;
+  border-color:red;
+}
+
 .caption{
   color: #171a2b;
   background-color: rgba(255, 255, 255, .9); /* #000103 020957 */
@@ -155,8 +160,6 @@ h3, h4 {
   text-indent: 1em;
   font-size: 18px;
   text-align: left;
-
-
 }
 
 .caption p{
@@ -164,6 +167,9 @@ h3, h4 {
   color: #171a2b;
 }
 
+.thumbnail ol li{
+  text-align: left;
+}
 
 .btn-flat, button {
   color: #5C6BC0;

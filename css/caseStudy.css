@@ -174,11 +174,15 @@ ul li {
   text-decoration: bold;
 }
 
-blockquote {
+blockquote, .blockquote {
   background: #7EC0DE;
   border: 5px solid #1A237E;
   font-weight: bold;
   text-align: center;
+
+}
+.blockquote h3 {
+  color: black
 }
 /*.navbar-brand{
   font-size: .95em;
