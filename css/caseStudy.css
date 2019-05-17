@@ -182,7 +182,7 @@ blockquote, .blockquote {
 
 }
 .blockquote h3 {
-  color: black
+  color: black;
 }
 /*.navbar-brand{
   font-size: .95em;
@@ -195,6 +195,37 @@ blockquote, .blockquote {
 
 }
 .testnav .navbar-nav li a:hover {
+  background-color: inherit;
+  color: #1A237E;
+}
+
+/* VU CASE STUDY STYLING */
+
+.VU_Problem_Statement {
+  border-style: solid;
+  border-width: 2px;
+  border-color: #000;
+  background-color: white;
+}
+
+.VU_Problem_Statement h3 {
+  color: #000;
+}
+
+.VuHeading {
+  color: black;
+}
+
+
+.Vunav {
+  background-color: inherit;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  border-color: #000;
+
+}
+
+.Vunav .navbar-nav li a:hover {
   background-color: inherit;
   color: #1A237E;
 }
