@@ -342,3 +342,17 @@ ul {
 }
 
 
+
+
+.letterbox {
+  background: #000; /*#1d1414 */
+  color: white;
+  border-bottom: 1px solid #6b6936;
+    text-indent: 1em;
+  font-size: 15px;
+  text-align: left;
+}
+
+.letterbox h4, a {
+  color: #FFFF82;
+}
