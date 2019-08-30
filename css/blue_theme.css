@@ -149,8 +149,8 @@ h3, h4 {
 }
 
 .thumbnail img {
-  border-radius: 50%;
-  border-color:red;
+  /* remove border radius */
+  
 }
 
 .caption{
@@ -353,6 +353,6 @@ ul {
   text-align: left;
 }
 
-.letterbox h4, a {
+.letterbox h4, {
   color: #FFFF82;
 }
