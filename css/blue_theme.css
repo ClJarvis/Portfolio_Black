@@ -2,12 +2,16 @@ html,body, #banner { height: 100%; width: 100% ; }
 
 body {
   /*font-family: sans-serif; */
-  background-color: white; /* whitesmoke or rgbs litegray) */
+  background-color: whitesmoke; /* white or rgbs litegray) */
   color: #8C9EFF;
   padding: 20px;
   text-align: center;
   font-size: 1.75em;
   padding-top: 50px;
+}
+
+font-face {
+  font-display: swap;
 }
 
 a {
