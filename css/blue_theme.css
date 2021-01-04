@@ -39,7 +39,9 @@ a:active, a:hover {
   color: #fff;
 }
 
-
+ img.blue_tint {
+        filter: invert(43%) sepia(15%) saturate(2087%) hue-rotate(194deg) brightness(95%) contrast(85%);
+    }
 
 /*.navbar-default .navbar-nav .open a, .navbar-default .navbar-nav .open a:focus, .navbar-default .navbar-nav .open a:hover {
     color: #5C6BC0;
