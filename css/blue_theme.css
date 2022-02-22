@@ -3,6 +3,13 @@ html,body, #banner { height: 100%; width: 100% ; }
 body {
   /*font-family: sans-serif; */
   background-color: whitesmoke; /* white or rgbs litegray) */
+
+background: linear-gradient( #bbc7f8, rgba(245, 245, 245, .02)
+); /* 1st #76d617, blue #6377e2 or teal#33ceb9*/
+background-repeat: no-repeat;
+height: 150%;
+
+
   color: #8C9EFF;
   padding: 20px;
   text-align: center;
