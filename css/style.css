@@ -406,8 +406,8 @@ a {
 .home-hero {
   display: flex;
   height: 100vh;
-  min-height: 50rem;
-  max-height: 100rem;
+  min-height: 40rem;
+  max-height: 60rem;
 }
 
 .home-hero__content {
